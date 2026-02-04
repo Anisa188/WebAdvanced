@@ -1,1 +1,94 @@
-1.css
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#horizontal-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+#horizontal-menu li{
+    float: left;
+}
+
+#horizontal-menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#horizontal-menu li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active{
+    background-color: #89a8e2;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16p;
+    text-decoration: none;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font:inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: #4CAF50;
+}
+
+.dropdown-contant{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0 .2);
+    z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-contant{
+    display: block;
+}
+
+.column{
+float:left
+width: 33.33%;
+padding: 10px;
+bacground-color: white;
+}
+
+
+
