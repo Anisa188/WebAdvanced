@@ -26,7 +26,7 @@ nav ul li{
 }
 
 nav ul li a{
-    text-decoration: none;
+    text-decoration: dashed;
     color:white;
 
 }
@@ -43,15 +43,15 @@ nav ul li .active{
 
 .main-heading h1{
     color: white;
-    font-size: 42px;
+    font-size: 60px;
     font-weight: blod;
     margin-bottom: 60px;
 }
 
 .main-heading a{
     text-decoration: none;
-    background-color: #eb7d4b;
-    font-size: 18px;
+    background-color: #d86631;
+    font-size: 60px;
     text-transform: uppercase;
     border-radius: 5px;
     padding: 25px 85px;
@@ -59,13 +59,225 @@ nav ul li .active{
 }
 
 h1{
-    color:orangered;
+    color:white;
 }
 
-pre{
+p{
     color: white;
     font-style: italic;
     text-decoration: double;
+}
+
+.div{
+  text-align: center;
+}
+
+.p{
+    font-size: medium;
+}
+
+
+
+
+#section-2{
+     background-color: #5a5855;
+    min-height: 745px;
+    color: white;
 
 }
 
+
+.title-box{
+    text-align: center;
+    max-width: 609px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.title-box h2{
+    margin-bottom: 0;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-box .line{
+    width: 87px;
+    height: 4px;
+    background-color: rgba(0,0,0,0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#section-3{
+     background-color: #5a5855;
+    min-height: 820px;
+    color: white;
+}
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row{
+    display: flex;
+}
+
+input[type="text"],input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+input[type="text"],input[type="email"],textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #c78125;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+input[type="submit"]{
+    background-color: #c78125;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+
+.big-botton{
+    padding: 25px 85px;
+    color: white;
+}
+
+
+footer{
+    background-color: #c78125;
+}
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul{
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+
+}
+
+.footer-links ul li{
+    display: inline block;
+    padding: 10px 20px 10px 20px;
+
+} 
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 800px){
+    header{
+        flex-direction: column;
+    }
+
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    header img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main-heading h1{
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main-heading a{
+        font-size: 13px;
+        padding: 25px;
+    }
+
+
+    .main-heading{
+        margin-top: 0;
+    }
+    nav ul li.active{
+        padding-right: 0;
+    }
+
+
+    nav ul{
+        padding-left: 0;
+    }
+
+    .service{
+        width: 100%;
+    }
+
+
+    .services-box{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .title-box{
+        width: 90%;
+    }
+
+
+    .form-row{
+        flex-direction: column;
+    }
+
+    input[type="text"], input[type="email"], textarea{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    footer ul{
+        flex-direction: column;
+    }
+
+
+    footer ul li{
+        text-align: center;
+    }
+
+
+    
+}
