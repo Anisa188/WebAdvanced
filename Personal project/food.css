@@ -1,0 +1,27 @@
+.food{
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.item{
+    background-color: #d6d6d6;
+    padding: 20px;
+    width: 200px;
+}
+
+.item h2{
+    color: #333;
+}
+
+.item p{
+    color: #555;
+    font-size: 16px;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body>
+    
+<section class="order">
+    <h1>Place Your Order</h1>
+
+    <form>
+        <label for="food">Choose your food:</label><br>
+        <select id="food" name="food">
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="salad">Salad</option>
+            <option value="spaghetti">Spaghetti</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" value="1"><br><br>
+
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" placeholder="Enter your address"><br><br>
+
+        <button type="submit">Order Now</button>
+    </form>
+</section>
+
+</body>
+</html>

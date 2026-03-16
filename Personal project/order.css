@@ -1,0 +1,21 @@
+.order{
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.order h1{
+    color: #333;
+    font-size: 32px;
+}
+
+.order form{
+    background-color: #d6d6d6;
+    padding: 20px;
+}
+
+.order input, .order select, .order button{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px
