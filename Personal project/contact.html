@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
-    <section class="contact">
-    <h1>Contact</h1>
-
-    <form>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="text" name="order" placeholder="Your Order (Pizza, Burger, etc.)" required>
-        <textarea name="message" placeholder="Your Message" rows="4"></textarea>
-        <button type="submit">Send Order</button>
+    <section id="contact">
+  <div class="container contact-container">
+    <h2>Contact Us</h2>
+    <p>Have questions? Send us a message and we’ll get back to you!</p>
+    <form id="contactForm">
+      <input type="text" id="cname" name="cname" placeholder="Your Name" required>
+      <input type="email" id="cemail" name="cemail" placeholder="Your Email" required>
+      <textarea id="cmessage" name="cmessage" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
     </form>
+    <p id="contactConfirmation"></p>
+  </div>
 </section>
     
 </body>
-</html>
+</head>

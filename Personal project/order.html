@@ -7,29 +7,26 @@
 </head>
 <body>
     
-<section class="order">
-    <h1>Place Your Order</h1>
-
-    <form>
-        <label for="food">Choose your food:</label><br>
-        <select id="food" name="food">
-            <option value="pizza">Pizza</option>
-            <option value="burger">Burger</option>
-            <option value="salad">Salad</option>
-            <option value="spaghetti">Spaghetti</option>
-        </select><br><br>
-
-        <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" value="1"><br><br>
-
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
-
-        <label for="address">Address:</label><br>
-        <input type="text" id="address" name="address" placeholder="Enter your address"><br><br>
-
-        <button type="submit">Order Now</button>
-    </form>
+<section id="order">
+  <div class="order-container">
+    <h2>Order Now</h2>
+    <p>Choose your favorite meals and place an order!</p>
+    
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    
+    <select name="meal" required>
+      <option value="">Select Meal</option>
+      <option value="pizza">Pizza</option>
+      <option value="burger">Burger</option>
+      <option value="salad">Salad</option>
+      <option value="pasta">Spaghetti</option>
+    </select>
+    
+    <input type="number" name="quantity" placeholder="Quantity" min="1" required>
+    
+    <button type="submit">Place Order</button>
+  </div>
 </section>
 
 </body>

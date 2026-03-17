@@ -1,21 +1,22 @@
-.order{
-    width: 60%;
-    margin: 60px auto;
-    text-align: center;
+#order {
+  padding:60px 20px;
+  background:rgb(197, 149, 59)
 }
 
-.order h1{
-    color: #333;
-    font-size: 32px;
+.order-container {
+  background:#b5855c; 
+  border-radius:40px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.12);
 }
 
-.order form{
-    background-color: #d6d6d6;
-    padding: 20px;
+.order-container input,
+.order-container select {
+  border-radius:25px;
+  background:#fff2e6;
 }
 
-.order input, .order select, .order button{
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 16px
+#order button {
+  background:#e07b39;
+  border-radius:30px;
+  color:#fff;
+}

@@ -1,82 +1,84 @@
-body{
+ body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-}
+ }
+
 
 #section-1{
-  background-color: #967142;
-  height: 600px;
+  padding:60px 20px;
+  background:#967142;
+  font-family:'Segoe UI', sans-serif;
+  text-align:center;
 }
 
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+header nav ul{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:0;
 }
 
-header{
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
+header nav ul li a{
+  text-decoration:none;
+  color:#333;
+  font-weight:600;
+  padding:8px 12px;
+  border-radius:12px;
+  transition:0.3s;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 20px 26px;
+header nav ul li.active a,
+header nav ul li a:hover{
+  background:#e07b39;
+  color:#fff;
 }
 
-nav ul li a{
-    text-decoration: dashed;
-    color:white;
-
-}
-
-nav ul li .active{
- background-color:white;
- border-radius: 5px;
-}
-
-.main-heading{
-    margin-top: 148px;
-    text-align: center;
+.main-heading .intro-text{
+  font-size:18px;
+  color:#7a4c23;
+  max-width:800px;
+  margin:auto;
+  margin-bottom:20px;
 }
 
 .main-heading h1{
-    color: white;
-    font-size: 100px;
-    font-weight: blod;
-    margin-bottom: 80px;
+  font-size:42px;
+  color:#b35d1e;
+  margin-bottom:40px;
 }
 
-.main-heading a{
-    text-decoration: none;
-    background-color: #e6b08c;
-    font-size: 100px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 50px 85px;
-    color: white;
+.image-wrapper{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
 }
 
-h1{
-    color:white;
+.home-image{
+  max-width:600px;
+  width:90%;
+  border-radius:30px;
+  box-shadow:0 12px 35px rgba(0,0,0,0.15);
+  transition:0.3s;
 }
 
-p{
-    color: white;
-    font-style: italic;
-    text-decoration: double;
+.home-image:hover{
+  transform:scale(1.03);
+  box-shadow:0 18px 45px rgba(0,0,0,0.2);
 }
 
-.div{
-  text-align: center;
+/* Responsive */
+@media(max-width:600px){
+  .main-heading .intro-text{
+    font-size:16px;
+  }
+  .main-heading h1{
+    font-size:32px;
+  }
+  .home-image{
+    max-width:90%;
+  }
 }
-
-.p{
-    font-size: medium;
-}
-
-
 
 
 #section-2{

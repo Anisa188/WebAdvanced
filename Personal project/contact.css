@@ -1,40 +1,103 @@
-.contact{
-    width: 90%;
-    margin: 60px auto;
-    text-align: center;
+/* ==================== CONTACT UNIQUE ==================== */
+#contact{
+  padding:60px 20px;
+  background:#f7f3f0; /* subtle warm background */
+  color:#333;
+  text-align:center;
 }
 
-.contact h1{
-    color: #333;
-    font-size: 36px;
-    margin-bottom: 20px;
+#contact h2{
+  font-size:38px;
+  margin-bottom:5px;
+  color:#b35d1e;
+  font-family:'Segoe UI', sans-serif;
 }
 
-.contact form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#contact p{
+  font-size:17px;
+  margin-bottom:30px;
+  color:#7a4c23;
 }
 
-.contact input, 
-.contact textarea{
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #777;
-    font-size: 16px;
+.contact-container{
+  max-width:520px;
+  margin:auto;
+  padding:35px;
+  border-radius:20px;
+  background:#fffaf5; /* soft warm card */
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+  display:flex;
+  flex-direction:column;
+  gap:25px;
 }
 
-.contact button{
-    width: 40%;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
+.input-group{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#fff2e6;
+  padding:10px 15px;
+  border-radius:12px;
+  border:1px solid #d8b89f;
+  transition:0.3s;
 }
 
-.contact button:hover{
-    background-color: #555;
+.input-group input,
+.input-group textarea{
+  width:100%;
+  border:none;
+  outline:none;
+  background:none;
+  font-size:16px;
+  font-weight:500;
+  color:#333;
+}
+
+.input-group textarea{
+  resize:none;
+}
+
+.input-group:focus-within{
+  border-color:#e07b39;
+  box-shadow:0 0 8px #e07b39;
+}
+
+#contact button{
+  width:100%;
+  padding:16px;
+  font-size:18px;
+  font-weight:bold;
+  color:#fff;
+  background:#e07b39;
+  border:none;
+  border-radius:14px;
+  cursor:pointer;
+  box-shadow:0 6px 12px rgba(224,123,57,0.5);
+  transition:0.3s;
+}
+
+#contact button:hover{
+  background:#b35d1e;
+  transform:scale(1.05);
+}
+
+#contactConfirmation{
+  margin-top:15px;
+  font-size:16px;
+  font-weight:bold;
+  color:#b35d1e;
+  text-shadow:0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+@media(max-width:500px){
+  #contact h2{
+    font-size:28px;
+  }
+  #contact p{
+    font-size:15px;
+  }
+  #contact button{
+    font-size:16px;
+  }
 }

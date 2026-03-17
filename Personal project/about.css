@@ -1,23 +1,32 @@
-.about{
-    width: 90%;
-    margin: 80px auto;
-    text-align: center;
+/* ==================== ABOUT ==================== */
+#about{
+  padding:60px 20px;
+  background:#f5f0e6;
+  color:#333;
+  text-align:center;
 }
 
-.about h1{
-    color: #333;
-    font-size: 36px;
+#about .about-container{
+  max-width:800px;
+  margin:auto;
+  padding:50px 40px;
+  background:#fff7f0;
+  border-radius:50px; /* më shumë rrumbullakosje */
+  box-shadow:0 15px 35px rgba(0,0,0,0.1); /* shadow më fluid */
 }
 
-.about hr{
-    width: 150px;
-    margin: 20px auto;
-    border: 1px solid #777;
+#about h2{
+  font-size:36px;
+  color:#b35d1e;
+  margin-bottom:20px;
+  font-family:'Segoe UI', sans-serif;
 }
 
-.about p{
-    color: #555;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+#about p{
+  font-size:18px;
+  line-height:1.8;
+  color:#7a4c23;
 }
+
+
+
