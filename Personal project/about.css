@@ -1,4 +1,4 @@
-/* ==================== ABOUT ==================== */
+
 #about{
   padding:60px 20px;
   background:#f5f0e6;
@@ -11,8 +11,8 @@
   margin:auto;
   padding:50px 40px;
   background:#fff7f0;
-  border-radius:50px; /* më shumë rrumbullakosje */
-  box-shadow:0 15px 35px rgba(0,0,0,0.1); /* shadow më fluid */
+  border-radius:50px; 
+  box-shadow:0 15px 35px rgba(0,0,0,0.1); 
 }
 
 #about h2{

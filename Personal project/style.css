@@ -5,81 +5,68 @@
 
 
 #section-1{
-  padding:60px 20px;
-  background:#967142;
-  font-family:'Segoe UI', sans-serif;
-  text-align:center;
+  background-color: #ac8f66;
+  height: 600px;
 }
 
-header nav ul{
-  list-style:none;
-  display:flex;
-  justify-content:center;
-  gap:20px;
-  padding:0;
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
 }
 
-header nav ul li a{
-  text-decoration:none;
-  color:#333;
-  font-weight:600;
-  padding:8px 12px;
-  border-radius:12px;
-  transition:0.3s;
+header{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
 }
 
-header nav ul li.active a,
-header nav ul li a:hover{
-  background:#e07b39;
-  color:#fff;
+nav ul li{
+    display: inline-block;
+    padding: 10px 16px;
 }
 
-.main-heading .intro-text{
-  font-size:18px;
-  color:#7a4c23;
-  max-width:800px;
-  margin:auto;
-  margin-bottom:20px;
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li .active{
+ background-color: #af8730;
+ border-radius: 5px;
+}
+
+.main-heading{
+    margin-top: 148px;
+    text-align: center;
 }
 
 .main-heading h1{
-  font-size:42px;
-  color:#b35d1e;
-  margin-bottom:40px;
+    color: white;
+    font-size: 42px;
+    font-weight: blod;
+    margin-bottom: 60px;
 }
 
-.image-wrapper{
-  display:flex;
-  justify-content:center;
-  margin-top:20px;
+.main-heading a{
+    text-decoration: none;
+    background-color: #eb7d4b;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 25px 85px;
+    color: white;
 }
 
-.home-image{
-  max-width:600px;
-  width:90%;
-  border-radius:30px;
-  box-shadow:0 12px 35px rgba(0,0,0,0.15);
-  transition:0.3s;
-}
+#section-1{
+background-image: url(images/image/image.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 
-.home-image:hover{
-  transform:scale(1.03);
-  box-shadow:0 18px 45px rgba(0,0,0,0.2);
-}
 
-/* Responsive */
-@media(max-width:600px){
-  .main-heading .intro-text{
-    font-size:16px;
-  }
-  .main-heading h1{
-    font-size:32px;
-  }
-  .home-image{
-    max-width:90%;
-  }
 }
-
 
 #section-2{
      background-color: #c2a17a;
@@ -173,7 +160,7 @@ input[type="submit"]{
 
 
 footer{
-    background-color:#080500;
+    background-color:#000000;
     
 }
 

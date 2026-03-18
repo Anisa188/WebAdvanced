@@ -1,22 +1,35 @@
 #order {
-  padding:60px 20px;
-  background:rgb(197, 149, 59)
+  padding: 100px 30px; 
+  background:#2f2f2f;
 }
 
 .order-container {
-  background:#b5855c; 
-  border-radius:40px;
-  box-shadow:0 12px 30px rgba(0,0,0,0.12);
+  background-color:#555555;
+  border-radius: 40px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  
+  max-width: 800px;  
+  margin: 0 auto;
+
+  padding: 40px; 
 }
 
 .order-container input,
 .order-container select {
-  border-radius:25px;
-  background:#fff2e6;
+  border-radius: 25px;
+  background:;
+
+  font-size: 20px;
+  padding: 15px;
+  width: 100%; 
+  margin-bottom: 15px;
 }
 
 #order button {
-  background:#e07b39;
-  border-radius:30px;
-  color:#fff;
+  background:#020202;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 25px;
+  width: 100%; 
 }
