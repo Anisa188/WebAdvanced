@@ -7,6 +7,11 @@
 #section-1{
   background-color: #ac8f66;
   height: 600px;
+  background-image: url(images/image/image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .container{
@@ -15,15 +20,30 @@
     height: 100%;
 }
 
-header{
-    padding: 55px;
-    display: flex;
-    justify-content: space-around;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+header img{
+   display: none;
+}
+
+nav {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
 
 nav ul li{
     display: inline-block;
     padding: 10px 16px;
+    
 }
 
 nav ul li a{
@@ -32,76 +52,86 @@ nav ul li a{
 
 }
 
-nav ul li .active{
+nav ul li .active {
  background-color: #af8730;
  border-radius: 5px;
 }
 
-.main-heading{
-    margin-top: 148px;
+.text{
+
+    text-align:left;
+    padding:65px 0px 0px 65px;
+    margin-left: 0%;
+    color: white;
+    margin-top: 150px;
+}
+
+
+
+
+
+
+#section-2 {
+    background: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    padding: 80px 0;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.title-box {
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.main-heading h1{
-    color: white;
-    font-size: 42px;
-    font-weight: blod;
-    margin-bottom: 60px;
-}
-
-.main-heading a{
-    text-decoration: none;
-    background-color: #eb7d4b;
-    font-size: 18px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 25px 85px;
-    color: white;
-}
-
-#section-1{
-background-image: url(images/image/image.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-
-
-}
-
-#section-2{
-     background-color: #c2a17a;
-    min-height: 745px;
-    color: white;
-
-}
-
-
-.title-box{
-    text-align: center;
-    max-width: 609px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.title-box h2{
-    margin-bottom: 0;
-    margin-bottom: 10px;
-    padding-top: 100px;
+.title-box h2 {
     font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
+    letter-spacing: 2px;
 }
 
-.title-box .line{
-    width: 87px;
-    height: 4px;
-    background-color: rgba(129, 103, 78, 0.15);
-    margin-left: auto;
-    margin-right: auto;
+.line {
+    width: 60px;
+    height: 3px;
+    background: #f4c542;
+    margin: 10px auto;
 }
 
+.services-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
 
+.services {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.services:hover {
+    transform: translateY(-10px);
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.services img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.services h3 {
+    color: #f4c542;
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-size: 14px;
+    line-height: 1.6;
+}
 
 #section-3{
      background-color: #695f4b;
@@ -153,7 +183,7 @@ input[type="submit"]{
 }
 
 
-.big-botton{
+.big-button{
     padding: 25px 85px;
     color: white;
 }
@@ -179,7 +209,7 @@ footer ul{
 }
 
 .footer-links ul li{
-    display: inline block;
+    display: inline-block;
     padding: 10px 20px 10px 20px;
 
 } 
@@ -203,28 +233,6 @@ footer ul{
     header img{
         margin-left: auto;
         margin-right: auto;
-    }
-
-
-    .main-heading h1{
-        font-size: 20px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-    .main-heading a{
-        font-size: 13px;
-        padding: 25px;
-    }
-
-
-    .main-heading{
-        margin-top: 0;
-    }
-    nav ul li.active{
-        padding-right: 0;
     }
 
 
