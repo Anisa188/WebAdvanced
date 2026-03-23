@@ -101,3 +101,35 @@
     font-size:16px;
   }
 }
+
+nav {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 20px;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 16px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 252, 252);
+
+}
+
+nav ul li .active {
+ background-color: #af8730;
+ border-radius: 5px;
+}
+
+.about-text{
+    margin-top: 10px;
+}
