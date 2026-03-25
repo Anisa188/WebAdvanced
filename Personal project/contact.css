@@ -1,7 +1,7 @@
-/* ==================== CONTACT UNIQUE ==================== */
+
 #contact{
-  padding:60px 20px;
-  background:#f7f3f0; /* subtle warm background */
+  padding:200px 20px;
+  background:#c29e83; 
   color:#333;
   text-align:center;
 }
@@ -20,11 +20,11 @@
 }
 
 .contact-container{
-  max-width:520px;
+  max-width:800px;
   margin:auto;
   padding:35px;
   border-radius:20px;
-  background:#fffaf5; /* soft warm card */
+  background:#fffaf5; 
   box-shadow: 0 15px 25px rgba(0,0,0,0.15);
   display:flex;
   flex-direction:column;
